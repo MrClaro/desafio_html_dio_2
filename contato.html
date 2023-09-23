@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetComp</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <hr>
+                <li><a href="sobre.html">Sobre</a></li>
+                <hr>
+                <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                <hr>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <header class="header">
+                <img  id="Contate-nos"  src="./imagens/Contate-nos.png" alt="Contate a gente">
+            </header>
+
+            <div class="conteudo">
+
+                <form id="formulario" action="">
+                    <fieldset id="organizador-form">
+                        <legend> <strong>Informe os dados para o contato</strong></legend>
+                        <label for="Nome:*"> <strong>Nome</strong> </label> <input type="text">
+                        <label for="E-mail:*"> <strong>Email</strong> </label> <input type="email">
+                        <label for="Assunto:*"> <strong>Assunto</strong>  </label> <input type="text">
+                        <label for="Mensagem:*">  <strong>Mensagem</strong> </label> <textarea name="Mensagem" id="mensagem" cols="30"
+                            rows="10"></textarea>
+                </form>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+                </fieldset>
+            </div>
+
+            <footer class="footer">
+                @ 2023 PetComp - <strong> Todos os direitos reservados </strong>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
